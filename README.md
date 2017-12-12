@@ -1,7 +1,7 @@
 #public class Hello {
-public static void main(String args£Û£İ) {
-System.out.println(¡å»¶Ó­ÄãÑ§Ï°JavaÓïÑÔ!¡å);
-}ª¤
+public static void main(String argsï¼»ï¼½) {
+System.out.println(â€³æ¬¢è¿ä½ å­¦ä¹ Javaè¯­è¨€!â€³);
+}
 }
 
 
@@ -23,18 +23,18 @@ public class SwitchTest {
     public static void main(String[] args) {
        Scanner sc=new Scanner(System.in);
    while (true) {
-    System.out.println("ÇëÊäÈëÒª×ª»»µÄÎÂ¶ÈÀàĞÍ£ºC »ò F");
+    System.out.println("è¯·è¾“å…¥è¦è½¬æ¢çš„æ¸©åº¦ç±»å‹ï¼šC æˆ– F");
     String s = sc.next().trim();
     if ("c".equalsIgnoreCase(s)) {
-          System.out.println("ÇëÊäÈëÒª×ª»»ÉãÊÏµÄÎÂ¶È:..");
+          System.out.println("è¯·è¾“å…¥è¦è½¬æ¢æ‘„æ°çš„æ¸©åº¦:..");
      double db = sc.nextDouble(); 
     double db2 = (db * 9 / 5) + 32;
-     System.out.println("¶ÔÓ¦µÄ»ªÊÏÎÂ¶È£º" + db2 + "F");
+     System.out.println("å¯¹åº”çš„åæ°æ¸©åº¦ï¼š" + db2 + "F");
     } else if ("f".equalsIgnoreCase(s)) {
-          System.out.println("ÇëÊäÈëÒª×ª»»»ªÊÏµÄÎÂ¶È:..");
+          System.out.println("è¯·è¾“å…¥è¦è½¬æ¢åæ°çš„æ¸©åº¦:..");
      double db = sc.nextDouble();
      double db2 = (db - 32) * 5 / 9;
-     System.out.println("¶ÔÓ¦µÄÉãÊÏÎÂ¶È£º" + Math.round(db2) + "C");
+     System.out.println("å¯¹åº”çš„æ‘„æ°æ¸©åº¦ï¼š" + Math.round(db2) + "C");
     }else if("exit".equalsIgnoreCase(s)){
      break;
     }
