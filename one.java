@@ -18,3 +18,6 @@ public class Csz {
    }
    if( m!=num){
     System.out.println("下次再来吧！");
+   }
+   }
+}
